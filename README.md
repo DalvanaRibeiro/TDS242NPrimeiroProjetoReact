@@ -1,3 +1,20 @@
+
+# Comando para rodar o projeto:
+ 1º Entre na pasta do projeto
+ 
+ 2º no terminal
+```bash
+npm i
+```
+
+em seguida: 
+
+```bash
+
+npm run dev
+````
+
+---
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
