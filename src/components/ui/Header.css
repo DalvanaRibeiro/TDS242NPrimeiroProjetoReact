@@ -1,0 +1,15 @@
+.app-header{
+    background-color: rgb(165, 165, 225);
+    color: rgb(7, 66, 66);
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0, 0.15);
+}
+.app-header h1{
+    margin: 0;
+    font-size: 28px;
+}
+.app-header p {
+     margin-top: 8px;
+     font-size: 16px;
+     opacity: 0.9;
+}
