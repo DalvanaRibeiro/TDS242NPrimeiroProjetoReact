@@ -2,6 +2,10 @@
 // Usa vários componentes (aqui faremos a composição)
 import Header from "./components/ui/Header"
 import Card from "./components/ui/Card"
+import Button from "./components/ui/Button"
+import CardImagem from "./components/ui/CardImagem"
+
+import img1 from './assets/hero.png'
 
 function App({onNavigation}){
   return(
@@ -29,6 +33,18 @@ function App({onNavigation}){
           <h2> Card 2 </h2>
           <p> 21:43 por hj deu né by Lucas .</p>
         </Card>
+        <Button />
+       </div>
+
+       <div className="container-cardsImagem">
+        <CardImagem
+         imagem = {img1}
+         alt = "Imagem 1"
+         titulo = "Primeiro Card"
+         descricao = "Olá sou o primeiro Card"
+         textoBotao = " Sou o botão do card1"
+
+        />
        </div>
 
     </section>

@@ -1,0 +1,52 @@
+.card{
+    width: 300px;
+    border-radius: 12px;
+    overflow: hidden;
+    background-color: aliceblue;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.card:hover{
+    transform: scale(1.03);
+}
+.card-img{
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+/*
+Imagem redonda tipo avatar que o fukui me perguntou hj 18:99
+.card-img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%; } aqui deixa redondo
+*/
+.card-content{
+    padding: 16px;
+    text-align: center;
+}
+.card-title{
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+.card-description{
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 12px;
+}
+
+.card-button{
+    padding: 8px 16px;
+    border: none;
+    border-radius: 8px;
+    background-color: #1947d0;
+    color: aliceblue;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.card-button:hover{
+    background-color: chocolate;
+}
